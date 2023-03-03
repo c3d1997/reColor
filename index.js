@@ -26,9 +26,9 @@ change.addEventListener('click', function () {
 clear.addEventListener('click', function () {
     document.querySelector('.colorBox').style.background = 'white'
     let colorContent = document.querySelectorAll('.colorBox__cCode p');
-    colorContent[0].innerHTML = '';
+    colorContent[0].innerHTML = '　';
     colorContent[1].innerHTML = '點選產生開始';
-    colorContent[2].innerHTML = '';
+    colorContent[2].innerHTML = '　';
 })
 
 btn.forEach(function (item) {
