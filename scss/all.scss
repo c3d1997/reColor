@@ -57,6 +57,7 @@
         border: 2px solid rgb(0, 0, 0);
         box-shadow: 6px 4px rgb(0, 0, 0);
         margin: 12px;
+        user-select: none;
         &:hover {
             transition: 0.2s;
             transform: translate(-1px, -1px);
