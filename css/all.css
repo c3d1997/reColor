@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Noto Sans TC", sans-serif;
+  touch-action: manipulation;
 }
 
 .container {
@@ -50,7 +51,6 @@
   border: 2px solid rgb(0, 0, 0);
   box-shadow: 6px 4px rgb(0, 0, 0);
   margin: 12px;
-  touch-action: manipulation;
 }
 .colorBox__btn:hover {
   transition: 0.2s;
